@@ -1,0 +1,36 @@
+#calendar .previous-btn
+{
+   display: none;
+}
+
+#calendar .next-btn
+{
+   display: none;
+}
+
+#pagesearch .ui-field-contain div.ui-slider-switch
+{
+  width: 10em;
+}
+
+#search-result-text
+{
+    text-align: center;
+}
+
+#favorite-warning
+{
+  text-align: center;
+}
+
+
+.senioritem
+{
+  background-color: blue;
+}
+
+
+.junioritem
+{
+  background-color: red;
+}
