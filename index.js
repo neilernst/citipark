@@ -17,20 +17,20 @@ app.get('/menus/json', function(req, res){
     res.sendFile('./public/menu.json' , { root: __dirname });
 });
 
-app.get('/menus/json/:id', function (req, res, next) {
-  res.send('Menu');
-  console.log('ID:', req.params.id);
-    console.log(conString);
-    pg.connect(conString, function(err, client, done) {
-        client.query('SELECT items FROM menus WHERE id = $1', [req.params.id], function(err, result) {
-            if (err) {
-                console.log(err);
-            }
-        console.log(result.rows[0].items);
-          done();
-        });
-    });
-});
+// app.get('/menus/json/:id', function (req, res, next) {
+//   res.send('Menu');
+//   console.log('ID:', req.params.id);
+//     console.log(conString);
+//     pg.connect(conString, function(err, client, done) {
+//         client.query('SELECT items FROM menus WHERE id = $1', [req.params.id], function(err, result) {
+//             if (err) {
+//                 console.log(err);
+//             }
+//         console.log(result.rows[0].items);
+//           done();
+//         });
+//     });
+// });
 
 
 // Location Routes
