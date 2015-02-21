@@ -40,6 +40,7 @@ var neighborhoods = [
  
 SENIORCOLOR = "#b7b0ff";
 JUNIORCOLOR = "#feff9c";
+JSON_LOCATIONS = "/locations/json/";
 
 function isFavorite (o)
 {
@@ -185,7 +186,7 @@ function addFavorite (o)
 
 }
 
- $.getJSON( '/locations/json/all', function(data) { 
+ $.getJSON(JSON_LOCATIONS, function(data) { 
 // $.getJSON( 'locations.json', function(data) { 
   $.each(data.locations, function (i, marker) {
     info[i] = {};
@@ -920,7 +921,7 @@ function initializeMap()
   
   gmap = $('#map_canvas').gmap();
   gmap.bind('init', function() { 
-    $.getJSON( 'locations.json', function(data) { 
+    $.getJSON( JSON_LOCATIONS, function(data) { 
       $.each( data.locations, function(i, marker) {
 	
  
