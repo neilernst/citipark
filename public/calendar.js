@@ -2,7 +2,7 @@ var menuHot 	= [];
 var menuCold 	= [];
 var menuSenior 	= [];
 
-$.getJSON( '/menus/json/all', function(data) { 
+$.getJSON( '/menus/json', function(data) { 
   $.each(data, function (i, el) {
     var dateString = el.date;
     var menuItems = el.items;
