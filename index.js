@@ -13,7 +13,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/locations/json/all', function(req,res) {
-    res.sendFile('./public/locations.json'); //TODO this is static, not db generated.
+    res.sendFile('./public/locations.json', { root: __dirname }); //TODO this is static, not db generated.
 });
 
 app.get('/menus/json/all', function(req, res){
