@@ -623,7 +623,7 @@ $(document).on("pagebeforeshow", "#pagesearch-result", function () {
 	  {
 	    colorli = "#feffaf";
 	  }
-	  li += '<li><a href="#pagedetail"  id="' + i + '" class="info-go">' + listdata[i].title + '</a></li>';
+	  li += '<li><a href="#pagedetail"  id="' + listdata[i].id + '" class="info-go">' + listdata[i].title + '</a></li>';
       /*
 	li += '<li><a href="#pagedetail" id="' + listdata[i].id + '" class="info-go">' + listdata[i].title + '</a></li>'; */ 
     }
