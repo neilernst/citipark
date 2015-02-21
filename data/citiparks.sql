@@ -1,6 +1,7 @@
 CREATE TABLE locations (
     id  serial primary key,
     site_name   varchar(255) ,
+    site_number integer,
     address varchar(255) ,
     lat numeric, -- e..g -128.455
     lon numeric,
@@ -15,7 +16,13 @@ CREATE TABLE locations (
     neigborhood varchar(255),
     coolers boolean,
     days integer, --1 = M-F 2: M-Th
-    comments text
+    comments text,
+    city varchar(255),
+    state varchar(100),
+    zipcode integer,
+    telephone varchar(100),
+    neighborhood varchar(255),
+    pgh_region varchar(255)
 );
 
 CREATE TABLE menus (

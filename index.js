@@ -13,7 +13,7 @@ app.get('/', function(request, response) {
 });
 
 // Menus routes
-app.get('/menus/json/all', function(req, res){
+app.get('/menus/json', function(req, res){
     res.sendFile('./public/menu.json' , { root: __dirname });
 });
 
@@ -38,7 +38,7 @@ app.get('/locations/json/:id', function (req, res, next) {
     res.send('Location');
 });
 
-app.get('/locations/json/all', function(req,res) {
+app.get('/locations/json', function(req,res) {
     res.sendFile('./public/locations.json', { root: __dirname }); //TODO this is static, not db generated.
 });
 
