@@ -17,7 +17,7 @@ app.get('/locations/json/all', function(req,res) {
 });
 
 app.get('/menus/json/all', function(req, res){
-    res.sendFile('./public/menu.json');
+    res.sendFile('./public/menu.json', , { root: __dirname });
 });
 
 app.listen(app.get('port'), function() {
