@@ -2,7 +2,7 @@ var menuHot 	= [];
 var menuCold 	= [];
 var menuSenior 	= [];
 
-$.getJSON( 'https://citipark.herokuapp.com/menus/json/all', function(data) { 
+$.getJSON( 'http://citipark.herokuapp.com/menus/json/all', function(data) { 
   $.each(data, function (i, el) {
     var dateString = el.date;
     var menuItems = el.items;
