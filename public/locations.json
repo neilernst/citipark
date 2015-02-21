@@ -1,0 +1,2185 @@
+{"locations":[
+{ "id": 1,
+    "type": 1,
+	  "latitude":40.454686, 
+	  "longitude":-79.897692,
+	  "title":"Afro American Music Institute",
+	  "content":"Afro American Music Institute",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "7173 Hamilton Avenue",
+	      "street2": "",
+	      "neighborhood": "Homewood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 2,
+    "type": 1,
+	  "latitude":40.448666, 
+	  "longitude":-79.977965,
+	  "title":"Ammon Community Center",
+	  "content":"Ammon Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2217 Bedford Ave.",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 3,
+    "type": 1,
+	  "latitude":40.440625, 
+	  "longitude":-79.995886,
+	  "title":"Arsenal Park",
+	  "content":"Arsenal Park",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "40th St.",
+	      "street2": "",
+	      "neighborhood": "Lawrenceville",
+	      "city": "Pittsburgh",
+	      "zipcode": "15201"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 4,
+    "type": 1,
+	  "latitude":40.449238, 
+	  "longitude":-79.975952,
+	  "title":"Bedford Dwellings",
+	  "content":"Bedford Dwellings",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2275 Bedford Ave. (rear)",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 5,
+    "type": 1,
+	  "latitude":40.409602, 
+	  "longitude":-79.926251,
+	  "title":"BJWL Hazelwood",
+	  "content":"BJWL Hazelwood",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "895 Johnston Ave.",
+	      "street2": "",
+	      "neighborhood": "Hazelwood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15207"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 6,
+    "type": 1,
+	  "latitude":40.461494, 
+	  "longitude":-79.952649,
+	  "title":"Bloomfield Community Center",
+	  "content":"Bloomfield Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "408 Ella St.",
+	      "street2": "",
+	      "neighborhood": "Bloomfield",
+	      "city": "Pittsburgh",
+	      "zipcode": "15224"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 7,
+    "type": 1,
+	  "latitude":40.447625, 
+	  "longitude":-79.953005,
+	  "title":"Collegiate YMCA/First Baptist Church",
+	  "content":"Collegiate YMCA/First Baptist Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "159 N. Bellefield Ave.",
+	      "street2": "",
+	      "neighborhood": "Oakland",
+	      "city": "Pittsburgh",
+	      "zipcode": "15260"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 8,
+    "type": 1,
+	  "latitude":40.455814, 
+	  "longitude":-79.898341,
+	  "title":"Community Empowerment Association",
+	  "content":"Community Empowerment Association",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "7120 Kelly Street",
+	      "street2": "",
+	      "neighborhood": "Homewood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 9,
+    "type": 1,
+	  "latitude":40.434419, 
+	  "longitude":-79.953188,
+	  "title":"Dan Marino Field",
+	  "content":"Dan Marino Field",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "Frazier & Dawson streets",
+	      "street2": "",
+	      "neighborhood": "Oakland",
+	      "city": "Pittsburgh",
+	      "zipcode": "15213"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 10,
+    "type": 1,
+	  "latitude":40.454296, 
+	  "longitude":-79.869934,
+	  "title":"East Hills BJWL/Spray Park",
+	  "content":"East Hills BJWL/Spray Park",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2291 Wilner Dr.",
+	      "street2": "",
+	      "neighborhood": "East Hills",
+	      "city": "Pittsburgh",
+	      "zipcode": "15221"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 11,
+    "type": 1,
+	  "latitude":40.472835, 
+	  "longitude":-79.957593,
+	  "title":"Estelle Campbell Boys & Girls Club",
+	  "content":"Estelle Campbell Boys & Girls Club",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "4600 Butler Street",
+	      "street2": "",
+	      "neighborhood": "Lawrenceville",
+	      "city": "Pittsburgh",
+	      "zipcode": "15201"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 12,
+    "type": 1,
+	  "latitude":40.449587, 
+	  "longitude":-79.97229,
+	  "title":"Good Samaritan Baptist Church",
+	  "content":"Good Samaritan Baptist Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2500 Webster Avenue",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 13,
+    "type": 1,
+	  "latitude":40.451148, 
+	  "longitude":-79.957081,
+	  "title":"Grace Memorial Church",
+	  "content":"Grace Memorial Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1000 Bryn Mawr Rd.",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 14,
+    "type": 1,
+	  "latitude":40.413047, 
+	  "longitude":-79.94414,
+	  "title":"Hazelwood YMCA",
+	  "content":"Hazelwood YMCA",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "4713 Chatsworth Ave.",
+	      "street2": "",
+	      "neighborhood": "Hazelwood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15217"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 15,
+    "type": 1,
+	  "latitude":40.447231, 
+	  "longitude":-79.905589,
+	  "title":"Higher Achievement/ Sterrett School",
+	  "content":"Higher Achievement/ Sterrett School",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "7100 Reynolds Street",
+	      "street2": "",
+	      "neighborhood": "Point Breeze",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 16,
+    "type": 1,
+	  "latitude":40.443834, 
+	  "longitude":-79.981135,
+	  "title":"Hill House",
+	  "content":"Hill House",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1908 Wylie Ave.",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 17,
+    "type": 1,
+	  "latitude":40.456545, 
+	  "longitude":-79.898268,
+	  "title":"Homewood-Brushton YMCA",
+	  "content":"Homewood-Brushton YMCA",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "7140 Bennett St.",
+	      "street2": "",
+	      "neighborhood": "Homewood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 18,
+    "type": 1,
+	  "latitude":40.458047, 
+	  "longitude":-79.896411,
+	  "title":"Homewood Church of God",
+	  "content":"Homewood Church of God",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "7146 Idlewild St.",
+	      "street2": "",
+	      "neighborhood": "Homewood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 19,
+    "type": 1,
+	  "latitude":40.440625, 
+	  "longitude":-79.995886,
+	  "title":"Homewood North Tenant Council",
+	  "content":"Homewood North Tenant Council",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "10 Albertise St.",
+	      "street2": "",
+	      "neighborhood": "Homewood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 20,
+    "type": 1,
+	  "latitude":40.467319, 
+	  "longitude":-79.926518,
+	  "title":"Inner City Ministries",
+	  "content":"Inner City Ministries",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "5643 East Liberty Blvd.",
+	      "street2": "",
+	      "neighborhood": "East Liberty",
+	      "city": "Pittsburgh",
+	      "zipcode": "15206"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 21,
+    "type": 1,
+	  "latitude":40.461408, 
+	  "longitude":-79.915389,
+	  "title":"Kingsley Association",
+	  "content":"Kingsley Association",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "6435 Frankstown Ave.",
+	      "street2": "",
+	      "neighborhood": "Homewood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 22,
+    "type": 1,
+	  "latitude":40.424389, 
+	  "longitude":-79.936825,
+	  "title":"Magee Community Center",
+	  "content":"Magee Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "745 Greenfield Ave.",
+	      "street2": "",
+	      "neighborhood": "Greenfield",
+	      "city": "Pittsburgh",
+	      "zipcode": "15207"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 23,
+    "type": 1,
+	  "latitude":40.465907, 
+	  "longitude":-79.939892,
+	  "title":"Morningside Church of God",
+	  "content":"Morningside Church of God",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "5173 Dearborn St.",
+	      "street2": "",
+	      "neighborhood": "Morningside",
+	      "city": "Pittsburgh",
+	      "zipcode": "15201"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 24,
+    "type": 1,
+	  "latitude":40.467984, 
+	  "longitude":-79.90356,
+	  "title":"Paulson Community Center",
+	  "content":"Paulson Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1201 Paulson Ave.",
+	      "street2": "",
+	      "neighborhood": "Lincoln-Lemington",
+	      "city": "Pittsburgh",
+	      "zipcode": "15215"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 25,
+    "type": 1,
+	  "latitude":40.455311, 
+	  "longitude":-79.88355,
+	  "title":"Salvation Army - Homewood",
+	  "content":"Salvation Army - Homewood",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "8020 Frankstown Avenue",
+	      "street2": "",
+	      "neighborhood": "Homewood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 26,
+    "type": 1,
+	  "latitude":40.445417, 
+	  "longitude":-79.975647,
+	  "title":"Schenley Heights Comm. Dev. Program/ Weil School",
+	  "content":"Schenley Heights Comm. Dev. Program/ Weil School",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "1"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2205 Centre Avenue",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 27,
+    "type": 1,
+	  "latitude":40.454633, 
+	  "longitude":-79.934647,
+	  "title":"Shadyside Boys and Girls Club",
+	  "content":"Shadyside Boys and Girls Club",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "6 Brownell Drive",
+	      "street2": "",
+	      "neighborhood": "Shadyside",
+	      "city": "Pittsburgh",
+	      "zipcode": "15213"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 28,
+    "type": 1,
+	  "latitude":40.444447, 
+	  "longitude":-79.977918,
+	  "title":"Thelma Lovette YMCA",
+	  "content":"Thelma Lovette YMCA",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2114 Centre Ave.",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 29,
+    "type": 1,
+	  "latitude":40.470955, 
+	  "longitude":-79.932779,
+	  "title":"Valley View Presbyterian Church",
+	  "content":"Valley View Presbyterian Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "601 N. Aiken Ave.",
+	      "street2": "",
+	      "neighborhood": "East Liberty",
+	      "city": "Pittsburgh",
+	      "zipcode": "15206"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 30,
+    "type": 1,
+	  "latitude":40.43941, 
+	  "longitude":-79.970151,
+	  "title":"Wadsworth Hall",
+	  "content":"Wadsworth Hall",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "373 1/2 Burrows St.",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 31,
+    "type": 1,
+	  "latitude":40.447535, 
+	  "longitude":-79.967331,
+	  "title":"Wesley Center AME Zion Church",
+	  "content":"Wesley Center AME Zion Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2701 Centre Ave.",
+	      "street2": "",
+	      "neighborhood": "Hill District",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 32,
+    "type": 1,
+	  "latitude":40.455687, 
+	  "longitude":-79.969608,
+	  "title":"West Penn Community Center",
+	  "content":"West Penn Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "450 30th St.",
+	      "street2": "",
+	      "neighborhood": "Polish Hill",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 33,
+    "type": 1,
+	  "latitude":40.474371, 
+	  "longitude":-80.01061,
+	  "title":"A Child Shall Lead",
+	  "content":"A Child Shall Lead",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2823 Perrysville Ave.",
+	      "street2": "",
+	      "neighborhood": "North Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 34,
+    "type": 1,
+	  "latitude":40.440625, 
+	  "longitude":-79.995886,
+	  "title":"Allegheny Dwellings",
+	  "content":"Allegheny Dwellings",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1710 Belleau Dr. (rear)",
+	      "street2": "",
+	      "neighborhood": "North Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 35,
+    "type": 1,
+	  "latitude":40.454653, 
+	  "longitude":-80.012874,
+	  "title":"Allegheny YMCA",
+	  "content":"Allegheny YMCA",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "600 W. North Ave.",
+	      "street2": "",
+	      "neighborhood": "North Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 36,
+    "type": 1,
+	  "latitude":40.472138, 
+	  "longitude":-80.027886,
+	  "title":"As Wee Care",
+	  "content":"As Wee Care",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "3004 Stayton St.",
+	      "street2": "",
+	      "neighborhood": "North Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 37,
+    "type": 1,
+	  "latitude":40.479197, 
+	  "longitude":-79.999483,
+	  "title":"Bethany House",
+	  "content":"Bethany House",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1500 Chicago St.",
+	      "street2": "",
+	      "neighborhood": "Northview Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15214"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 38,
+    "type": 1,
+	  "latitude":40.468307, 
+	  "longitude":-80.013784,
+	  "title":"Fowler Pool",
+	  "content":"Fowler Pool",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2438 Wilson Ave.",
+	      "street2": "",
+	      "neighborhood": "North Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 39,
+    "type": 1,
+	  "latitude":40.459453, 
+	  "longitude":-80.014421,
+	  "title":"Jefferson Community Center",
+	  "content":"Jefferson Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "605 Redknap St.",
+	      "street2": "",
+	      "neighborhood": "North Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 40,
+    "type": 1,
+	  "latitude":40.469684, 
+	  "longitude":-80.030018,
+	  "title":"New Hope Church",
+	  "content":"New Hope Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2710 Shadeland Avenue",
+	      "street2": "",
+	      "neighborhood": "Brighton Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 41,
+    "type": 1,
+	  "latitude":40.455392, 
+	  "longitude":-80.028356,
+	  "title":"NorthShore Community Alliance",
+	  "content":"NorthShore Community Alliance",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1439 N. Franklin Ave.",
+	      "street2": "",
+	      "neighborhood": "Manchester",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 42,
+    "type": 1,
+	  "latitude":40.481384, 
+	  "longitude":-80.034265,
+	  "title":"North Side Institutional Church",
+	  "content":"North Side Institutional Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "3556 Shadeland Avenue",
+	      "street2": "",
+	      "neighborhood": "Brighton Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 43,
+    "type": 1,
+	  "latitude":40.478853, 
+	  "longitude":-80.001023,
+	  "title":"Northview Heights Gym",
+	  "content":"Northview Heights Gym",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "525 Mt. Pleasant Road",
+	      "street2": "",
+	      "neighborhood": "Northview Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15214"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 44,
+    "type": 1,
+	  "latitude":40.478065, 
+	  "longitude":-80.002488,
+	  "title":"Northview Urban League",
+	  "content":"Northview Urban League",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "101 Hazlett St.",
+	      "street2": "",
+	      "neighborhood": "Northview Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15214"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 45,
+    "type": 1,
+	  "latitude":40.478853, 
+	  "longitude":-80.001023,
+	  "title":"Northview Youth Center",
+	  "content":"Northview Youth Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "415 Mt. Pleasant Road",
+	      "street2": "",
+	      "neighborhood": "Northview Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15214"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 46,
+    "type": 1,
+	  "latitude":40.483993, 
+	  "longitude":-80.035746,
+	  "title":"Project Destiny",
+	  "content":"Project Destiny",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "3737 Brighton Road",
+	      "street2": "",
+	      "neighborhood": "Brighton Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 47,
+    "type": 1,
+	  "latitude":40.455584, 
+	  "longitude":-80.007871,
+	  "title":"Salvation Army - North Side",
+	  "content":"Salvation Army - North Side",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "100 W. North Avenue",
+	      "street2": "",
+	      "neighborhood": "North Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 48,
+    "type": 1,
+	  "latitude":40.45875, 
+	  "longitude":-79.988356,
+	  "title":"Troy Hill Spray Park",
+	  "content":"Troy Hill Spray Park",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1200 Goetman St.",
+	      "street2": "",
+	      "neighborhood": "Troy Hill",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 49,
+    "type": 1,
+	  "latitude":40.419234, 
+	  "longitude":-79.975389,
+	  "title":"Arlington Community Center",
+	  "content":"Arlington Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "2201 Salisbury St.",
+	      "street2": "",
+	      "neighborhood": "Arlington",
+	      "city": "Pittsburgh",
+	      "zipcode": "15210"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 50,
+    "type": 1,
+	  "latitude":40.417966, 
+	  "longitude":-79.962968,
+	  "title":"Arlington Heights",
+	  "content":"Arlington Heights",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "3123 Cordell Place (rear)",
+	      "street2": "",
+	      "neighborhood": "Arlington Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15223"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 51,
+    "type": 1,
+	  "latitude":40.413193, 
+	  "longitude":-80.018413,
+	  "title":"Beechview Spray Park",
+	  "content":"Beechview Spray Park",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "Vanucci Field @ Orangewood Ave.",
+	      "street2": "",
+	      "neighborhood": "Beechview",
+	      "city": "Pittsburgh",
+	      "zipcode": "15219"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 52,
+    "type": 1,
+	  "latitude":40.391347, 
+	  "longitude":-80.008882,
+	  "title":"Brookline Community Center",
+	  "content":"Brookline Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1400 Oakridge St.",
+	      "street2": "",
+	      "neighborhood": "Brookline",
+	      "city": "Pittsburgh",
+	      "zipcode": "15226"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 53,
+    "type": 1,
+	  "latitude":40.441226, 
+	  "longitude":-80.056788,
+	  "title":"Crafton Heights Open Door",
+	  "content":"Crafton Heights Open Door",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "12 Stratmore St.",
+	      "street2": "",
+	      "neighborhood": "Crafton Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15205"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 54,
+    "type": 1,
+	  "latitude":40.414227, 
+	  "longitude":-80.003859,
+	  "title":"Elderado Center",
+	  "content":"Elderado Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "900 Delmont Ave.",
+	      "street2": "",
+	      "neighborhood": "Knoxville",
+	      "city": "Pittsburgh",
+	      "zipcode": "15210"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 55,
+    "type": 1,
+	  "latitude":40.410428, 
+	  "longitude":-79.974832,
+	  "title":"Lighthouse Memorial Church",
+	  "content":"Lighthouse Memorial Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "810 Fisher St.",
+	      "street2": "",
+	      "neighborhood": "St. Clair/Knoxville",
+	      "city": "Pittsburgh",
+	      "zipcode": "15210"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 56,
+    "type": 1,
+	  "latitude":40.405624, 
+	  "longitude":-80.015008,
+	  "title":"Moore Pool",
+	  "content":"Moore Pool",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1801 Pioneer Ave.",
+	      "street2": "",
+	      "neighborhood": "Brookline",
+	      "city": "Pittsburgh",
+	      "zipcode": "15226"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 57,
+    "type": 1,
+	  "latitude":40.429083, 
+	  "longitude":-79.974385,
+	  "title":"Ormsby Community Center",
+	  "content":"Ormsby Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "79 S. 22nd St.",
+	      "street2": "",
+	      "neighborhood": "South Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15203"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 58,
+    "type": 1,
+	  "latitude":40.391543, 
+	  "longitude":-79.990985,
+	  "title":"Phillips Community Center",
+	  "content":"Phillips Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "201 Parkfield St.",
+	      "street2": "",
+	      "neighborhood": "Carrick",
+	      "city": "Pittsburgh",
+	      "zipcode": "15227"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 59,
+    "type": 1,
+	  "latitude":40.431384, 
+	  "longitude":-80.01368,
+	  "title":"Ream Pool",
+	  "content":"Ream Pool",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "321 Merrimac St.",
+	      "street2": "",
+	      "neighborhood": "Mt. Washington",
+	      "city": "Pittsburgh",
+	      "zipcode": "15211"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 60,
+    "type": 1,
+	  "latitude":40.41498, 
+	  "longitude":-80.075166,
+	  "title":"St. Andrew Lutheran Church",
+	  "content":"St. Andrew Lutheran Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "218 Alter St.",
+	      "street2": "",
+	      "neighborhood": "East Carnegie",
+	      "city": "Pittsburgh",
+	      "zipcode": "15106"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 61,
+    "type": 1,
+	  "latitude":40.410457, 
+	  "longitude":-79.989985,
+	  "title":"Trinity Evangelical Lutheran Church",
+	  "content":"Trinity Evangelical Lutheran Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "601 Brownsville Road",
+	      "street2": "",
+	      "neighborhood": "Mt. Oliver",
+	      "city": "Pittsburgh",
+	      "zipcode": "15210"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 62,
+    "type": 1,
+	  "latitude":40.421141, 
+	  "longitude":-80.000901,
+	  "title":"Warrington Community Center",
+	  "content":"Warrington Community Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "329 E. Warrington Ave.",
+	      "street2": "",
+	      "neighborhood": "Beltzhoover",
+	      "city": "Pittsburgh",
+	      "zipcode": "15210"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 63,
+    "type": 1,
+	  "latitude":40.45809, 
+	  "longitude":-80.070192,
+	  "title":"White Lily Baptist Church",
+	  "content":"White Lily Baptist Church",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "3621 Chartiers Avenue",
+	      "street2": "",
+	      "neighborhood": "Chartiers City",
+	      "city": "Pittsburgh",
+	      "zipcode": "15204"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 64,
+    "type": 1,
+	  "latitude":40.411944, 
+	  "longitude":-79.989851,
+	  "title":"YMCA Hilltop Computer Center",
+	  "content":"YMCA Hilltop Computer Center",
+	  "tel": "+1-412-244-3911",
+	  "menu" : "2"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "500 Brownsville Road",
+	      "street2": "",
+	      "neighborhood": "Knoxville",
+	      "city": "Pittsburgh",
+	      "zipcode": "15210"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 65,
+    "type": 2,
+	  "latitude":40.406711, 
+	  "longitude":-79.933102,
+	  "title":"Senior Center Glen Hazel",
+	  "content":"Senior Center Glen Hazel",
+	  "tel": "+1-412-422-6554",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "945 Roselle Court",
+	      "street2": "",
+	      "neighborhood": "Glen Hazel",
+	      "city": "Pittsburgh",
+	      "zipcode": "15207"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 66,
+    "type": 2,
+	  "latitude":40.424389, 
+	  "longitude":-79.936825,
+	  "title":"Senior Center Greenfield",
+	  "content":"Senior Center Greenfield",
+	  "tel": "+1-412-422-6551",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "745 Greenfield Ave.",
+	      "street2": "",
+	      "neighborhood": "Greenfield",
+	      "city": "Pittsburgh",
+	      "zipcode": "15217"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 67,
+    "type": 2,
+	  "latitude":40.403647, 
+	  "longitude":-79.942569,
+	  "title":"Senior Center Hazelwood",
+	  "content":"Senior Center Hazelwood",
+	  "tel": "+1-412-422-6549",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "5344 Second Ave.",
+	      "street2": "",
+	      "neighborhood": "Hazelwood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15207"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 68,
+    "type": 2,
+	  "latitude":40.456911, 
+	  "longitude":-79.893032,
+	  "title":"Senior Center Homewood",
+	  "content":"Senior Center Homewood",
+	  "tel": "+1-412-244-4190",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "7321 Frankstown Ave. ",
+	      "street2": "",
+	      "neighborhood": "Homewood",
+	      "city": "Pittsburgh",
+	      "zipcode": "15208"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 69,
+    "type": 2,
+	  "latitude":40.472835, 
+	  "longitude":-79.957593,
+	  "title":"Senior Center Lawrenceville",
+	  "content":"Senior Center Lawrenceville",
+	  "tel": "+1-412-622-6918",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "4600 Butler St.",
+	      "street2": "",
+	      "neighborhood": "Lawrenceville",
+	      "city": "Pittsburgh",
+	      "zipcode": "15201"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 70,
+    "type": 2,
+	  "latitude":40.472064, 
+	  "longitude":-79.913673,
+	  "title":"Senior Center Morningside",
+	  "content":"Senior Center Morningside",
+	  "tel": "+1-412-665-4342",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "6944 Presidents Way",
+	      "street2": "",
+	      "neighborhood": "Morningside",
+	      "city": "Pittsburgh",
+	      "zipcode": "15206"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 71,
+    "type": 2,
+	  "latitude":40.479277, 
+	  "longitude":-80.035803,
+	  "title":"Senior Center Brighton Heights",
+	  "content":"Senior Center Brighton Heights",
+	  "tel": "+1-412-766-4656",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "3515 McClure Ave.",
+	      "street2": "",
+	      "neighborhood": "Brighton Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 72,
+    "type": 2,
+	  "latitude":40.450455, 
+	  "longitude":-80.00721,
+	  "title":"Senior Center North Side",
+	  "content":"Senior Center North Side",
+	  "tel": "+1-412-323-7239",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "Allegheny Square",
+	      "street2": "",
+	      "neighborhood": "North Side",
+	      "city": "Pittsburgh",
+	      "zipcode": "15212"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 73,
+    "type": 2,
+	  "latitude":40.479327, 
+	  "longitude":-80.001335,
+	  "title":"Senior Center NorthView Heights",
+	  "content":"Senior Center NorthView Heights",
+	  "tel": "+1-412-323-7240",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "533 Mt. Pleasant Rd.",
+	      "street2": "",
+	      "neighborhood": "Northview Heights",
+	      "city": "Pittsburgh",
+	      "zipcode": "15214"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 74,
+    "type": 2,
+	  "latitude":40.410746, 
+	  "longitude":-80.024419,
+	  "title":"Senior Center Beechview",
+	  "content":"Senior Center Beechview",
+	  "tel": "+1-412-571-3224",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "1555 Broadway Ave.",
+	      "street2": "",
+	      "neighborhood": "Beechview",
+	      "city": "Pittsburgh",
+	      "zipcode": "15216"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 75,
+    "type": 2,
+	  "latitude":40.430157, 
+	  "longitude":-80.007942,
+	  "title":"Senior Center Mt Washington",
+	  "content":"Senior Center Mt Washington",
+	  "tel": "+1-412-488-8405",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "122 Virginia Ave.",
+	      "street2": "",
+	      "neighborhood": "Mt. Washington",
+	      "city": "Pittsburgh",
+	      "zipcode": "15211"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 76,
+    "type": 2,
+	  "latitude":40.45521, 
+	  "longitude":-80.056555,
+	  "title":"Senior Center Sheraden",
+	  "content":"Senior Center Sheraden",
+	  "tel": "+1-412-777-5012",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "720 Sherwood Ave.",
+	      "street2": "",
+	      "neighborhood": "Sheraden",
+	      "city": "Pittsburgh",
+	      "zipcode": "15204"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 77,
+    "type": 2,
+	  "latitude":40.429427, 
+	  "longitude":-79.989221,
+	  "title":"Senior Center South Side",
+	  "content":"Senior Center South Side",
+	  "tel": "+1-412-488-8404",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "12th St. & Bingham St.",
+	      "street2": "",
+	      "neighborhood": "South Side Market House",
+	      "city": "Pittsburgh",
+	      "zipcode": "15203"
+	      },
+	  "comments" : ""
+	}
+,
+{ "id": 78,
+    "type": 2,
+	  "latitude":40.438748, 
+	  "longitude":-80.0348,
+	  "title":"Senior Center West End",
+	  "content":"Senior Center West End",
+	  "tel": "+1-412-937-3068",
+	  "menu" : "3"
+	  ,
+	  "schedule" : {
+	    "Mon" : ["10am-1130am","7pm-9pm"],
+	    "Tue" : ["6pm-8pm"],
+	    "Wed" : ["6pm-8pm"],
+	    "Thu" : ["6pm-8pm"],
+	    "Fri" : ["6pm-8pm"],
+	    "Sat" : ["6pm-8pm"],
+	    "Sun" : ["6pm-8pm"]
+	  },
+	  "addr" : {
+	      "street1": "80 Wabash St.",
+	      "street2": "",
+	      "neighborhood": "West End",
+	      "city": "Pittsburgh",
+	      "zipcode": "15220"
+	      },
+	  "comments" : ""
+	}
+]}
