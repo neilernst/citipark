@@ -185,7 +185,7 @@ function addFavorite (o)
 
 }
 
-$.getJSON( 'https://citipark.herokuapp.com/locations/json/all', function(data) { 
+$.getJSON( 'http://citipark.herokuapp.com/locations/json/all', function(data) { 
   $.each(data.locations, function (i, marker) {
     info[i] = {};
     
