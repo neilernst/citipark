@@ -17,21 +17,27 @@ app.get('/menus/json', function(req, res){
     res.sendFile('./public/menu.json' , { root: __dirname });
 });
 
-// app.get('/menus/json/:id', function (req, res, next) {
-//   res.send('Menu');
-//   console.log('ID:', req.params.id);
-//     console.log(conString);
-//     pg.connect(conString, function(err, client, done) {
-//         client.query('SELECT items FROM menus WHERE id = $1', [req.params.id], function(err, result) {
-//             if (err) {
-//                 console.log(err);
-//             }
-//         console.log(result.rows[0].items);
-//           done();
-//         });
-//     });
-// });
+app.get('/menus/json/:id', function (req, res, next) {
+    console.log('ID:', req.params.id);
+    console.log(conString);
+    pg.connect(conString, function(err, client, done) {
+        client.query('SELECT items FROM menus WHERE id = $1', [req.params.id], function(err, result) {
+        // handle an error from the query
+        if (result.rows[0] != null) {
+            console.log(result.rows[0].items);
+        } else {
+            done(client);
+            res.statusCode = 404;
+            res.send('An error occurred');
+            return true;
+        }
+        res.statusCode = 200;//res.writeHead(200,{'content-type': 'text/plain'});
+        res.send('Menu');
 
+        done();
+        });
+    });
+});
 
 // Location Routes
 app.get('/locations/json/:id', function (req, res, next) {
