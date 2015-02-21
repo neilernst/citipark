@@ -185,7 +185,8 @@ function addFavorite (o)
 
 }
 
-$.getJSON( 'http://citipark.herokuapp.com/locations/json/all', function(data) { 
+ $.getJSON( '/locations/json/all', function(data) { 
+// $.getJSON( 'locations.json', function(data) { 
   $.each(data.locations, function (i, marker) {
     info[i] = {};
     
@@ -534,7 +535,7 @@ function refreshFavorites ()
       {
 	classli = "junioritem";
       }
-      li += '<li><a href="#pagedetail" id="' + vals[i].id + '" class="'+classli+'">' + vals[i].title + '</a></li>';
+      li += '<li><a href="#pagedetail" id="' + vals[i].id + '" class="info-go">' + vals[i].title + '</a></li>';
     }
     
     $("#favorites-list").append(li).promise().done(function () {
