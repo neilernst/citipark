@@ -22,7 +22,8 @@ CREATE TABLE locations (
     zipcode integer,
     telephone varchar(100),
     neighborhood varchar(255),
-    pgh_region varchar(255)
+    pgh_region varchar(255),
+    cancelled boolean
 );
 
 CREATE TABLE menus (
