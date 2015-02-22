@@ -17,6 +17,24 @@ app.get('/menus/json', function(req, res){
     res.sendFile('./public/menu.json' , { root: __dirname });
 });
 
+app.get('/menus/all', function(req,res) { //clone baby clone
+    pg.connect(conString, function(err, client, done) {
+        client.query('SELECT * FROM menus', function(err, result) {
+        // handle an error from the query
+        if (result.rows != null) {
+            var json = JSON.stringify(result.rows);
+            res.writeHead(200, {'content-type':'application/json', 'content-length':Buffer.byteLength(json)});
+            res.end(json);
+        } else {
+            done(client);
+            res.statusCode = 404;
+            res.send('An error occurred');
+            return true;
+        }
+        });
+    });
+});
+
 app.get('/menus/json/:id', function (req, res, next) {
     console.log('ID:', req.params.id);
     console.log(conString);
@@ -61,10 +79,28 @@ app.get('/locations/json/:id', function (req, res, next) {
     });
 });
 
+app.get('/locations/all', function(req,res) {
+    //res.sendFile('./public/locations.json', { root: __dirname }); //TODO this is static, not db generated.
+    pg.connect(conString, function(err, client, done) {
+        client.query('SELECT * FROM locations', function(err, result) {
+        // handle an error from the query
+        if (result.rows != null) {
+            var json = JSON.stringify(result.rows);
+            res.writeHead(200, {'content-type':'application/json', 'content-length':Buffer.byteLength(json)});
+            res.end(json);
+        } else {
+            done(client);
+            res.statusCode = 404;
+            res.send('An error occurred');
+            return true;
+        }
+        });
+    });
+});
+
 app.get('/locations/json', function(req,res) {
     res.sendFile('./public/locations.json', { root: __dirname }); //TODO this is static, not db generated.
 });
-
 //app.post('/locations/json/:id', ) // TODO allow for locations edits.
 
 app.listen(app.get('port'), function() {
