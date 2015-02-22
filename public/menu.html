@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--       <link rel="stylesheet" href="custom.css"> -->
+        <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="themes/mytheme.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+      <script src="jquery-1.11.1.min.js"></script>
+      <script src="jquery.mobile-1.4.5.min.js"></script>
+      <script type="text/javascript" src="jquery.ui.map.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <script type="text/javascript" src="jw-jqm-cal.js"></script>
+
+        <style type="text/css">
+label, input, select {
+  display:block;
+}
+input, select {
+  margin-bottom: 1em;
+}
+fieldset {
+  margin-bottom: 2em;
+  padding: 1em;
+}
+fieldset fieldset {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+input[type="checkbox"] {
+  display:inline;
+}
+.range {
+  margin-bottom:1em;
+}
+.meal-type input, .meal-type label {
+  display:inline-block;
+}
+  </style>
+</head>
+
+<body>
+<div data-role="page" id="main">
+  <div data-role="header">
+    <h1>Citiparks - Menu Edit</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#main" data-icon="home">Home</a></li>
+        <li><a href="#pagemap" data-icon="location">Map</a></li>
+        <li><a href="#pagelist" data-icon="bars">list</a></li>
+        <li><a href="#pagesearch" data-icon="search">search</a></li>
+        <li><a href="#pagefav" data-icon="heart">favorite</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="main" class="ui-content">
+
+    <p style="text-align: center; font-size: 1.5em; font-weight: bold;">
+    Welcome on the Citiparks menu editor. Note: this is only for Citiparks employees..
+    </p>
+
+
+</div>
+
+<div data-role="menu-edit-form" class="ui-content">
+
+<form id="edit" method="post" action="">
+<fieldset>
+<fieldset>
+      <legend>Meal Type</legend>
+      <div class="meal-type">
+          <input id="Breakfast" name="mealtype" type="radio">
+          <label for="hot">Breakfast</label>
+          <input id="Lunch" name="mealtype" type="radio">
+          <label for="lunch">Lunch</label>
+          <input id="Snack" name="mealtype" type="radio">
+          <label for="snack">Snack</label>
+      </div>
+</fieldset>
+
+<fieldset>
+      <legend>Meal Class</legend>
+      <div class="meal-class">
+          <input id="Hot" name="mealclass" type="radio">
+          <label for="hot">Hot</label>
+          <input id="Cold" name="mealclass" type="radio">
+          <label for="cold">Cold</label>
+      </div>
+</fieldset>
+
+<label for="items">Meal Contents</label>
+<input type="text" name="itemns">
+Service Date: <input type="text" data-role="date" data-inline="true">
+<label for="comments">Comments</label>
+<input type="text" name="comments">
+
+<input type="submit" name="submit" id="submit" value="Add Menu" />
+
+</fieldset>
+</form>
+
+</div><!-- /end #contact-form -->
+
+
+</body>
+</html>
+

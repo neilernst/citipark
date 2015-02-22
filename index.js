@@ -35,9 +35,18 @@ app.get('/menus/all', function(req,res) { //clone baby clone
     });
 });
 
+// app.post('/menus', function(req,res,next) {
+//     console.log('ID:', req.params.id);
+//     pg.connect(conString, function(err, client, done) {
+//         client.query('INSERT INTO menus (
+//     });
+// });
+
+app.delete('/menus/:id', function(req, res, next) {
+});
+
 app.get('/menus/json/:id', function (req, res, next) {
     console.log('ID:', req.params.id);
-    console.log(conString);
     pg.connect(conString, function(err, client, done) {
         client.query('SELECT items FROM menus WHERE id = $1', [req.params.id], function(err, result) {
         // handle an error from the query
