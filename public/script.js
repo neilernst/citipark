@@ -1,4 +1,7 @@
 var info = [];
+
+  var gmap;
+
 var neighborhoods = [
  "Arlington",
  "Arlington Heights",
@@ -230,6 +233,65 @@ $(document).on('vclick', '[data-rel=back]', function (e) {
 //     reverse: true });
 });
 
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+//         document.getElementById("geolocation-msg").innerHTML = "Geolocation is supported by this browser.";
+    } else {
+        document.getElementById("geolocation-msg").innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    console.log ("lat = " + position.coords.latitude);
+    
+    console.log ("lon = " + position.coords.longitude);
+    var lat = position.coords.latitude;
+    var lon = position.coords.longitude;
+//      $('#map_canvas').gmap({ 'centerAt': new google.maps.LatLng(lat,lon)});
+       $('#map_canvas').gmap('get', 'map').setCenter(new google.maps.LatLng(lat,lon));
+       
+$('#map_canvas').gmap('option', 'zoom', 12);  
+
+}
+
+
+function showError(error) {
+  console.log ("error  " + error);
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+             document.getElementById("geolocation-msg").innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+             document.getElementById("geolocation-msg").innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+             document.getElementById("geolocation-msg").innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+             document.getElementById("geolocation-msg").innerHTML = "An unknown error occurred."
+            break;
+    }
+}
+
+
+$(document).on('vclick', '#getlocation', function (e) {
+
+  console.log ("get location");
+   getLocation();
+//                   $('#map_canvas').gmap({'center': getLatLng()});
+//                 function getLatLng() {
+//                         if ( google.loader.ClientLocation != null )
+// 			{
+// 			  console.log( "use google location");
+//                                 return new google.maps.LatLng(google.loader.ClientLocation.latitude, google.loader.ClientLocation.longitude);   
+// 			}
+// 			console.log("use default");
+// 			return new google.maps.LatLng(59.3426606750, 18.0736160278);
+//                 }
+
+});
 
 $(document).on('vclick', '#button-senior', function (e) {
 
@@ -917,7 +979,6 @@ function initializeMap()
   
   
   
-  var gmap;
   
   gmap = $('#map_canvas').gmap();
   gmap.bind('init', function() { 

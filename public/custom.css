@@ -3,6 +3,13 @@
    display: none;
 }
 
+#geolocation-msg
+{
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
 #calendar .next-btn
 {
    display: none;
