@@ -13,6 +13,7 @@ http://uglymongrel.com.com
 .ui-datepicker .ui-datepicker-next,
 .ui-datepicker .ui-datepicker-prev {
 	/* ui-shadow */
+	z-index: 10;
 	-webkit-box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
 	-moz-box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ rgba(0,0,0,.15) /*{global-box-shadow-color}*/;
 	box-shadow: 0 1px 3px /*{global-box-shadow-size}*/ rgba(0,0,0,.15) /*{global-box-shadow-color}*/;

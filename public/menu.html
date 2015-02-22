@@ -2,7 +2,7 @@
  <html>
     <head>
        <meta name="viewport" content="width=device-width, initial-scale=1">
- <!--       <link rel="stylesheet" href="custom.css"> -->
+       <link rel="stylesheet" href="custom.css">
          <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
          <link rel="stylesheet" href="themes/mytheme.min.css" />
          <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
@@ -15,11 +15,7 @@
       <script type="text/javascript" src="datepicker.js"></script>
 
       <script type="text/javascript" src="jquery.mobile.datepicker.js"></script>
-       <script>
-                $(function(){
-                        $( ".date-input-css" ).datepicker();
-                })
-        </script>
+
 
  </head>
 
@@ -45,6 +41,8 @@
 
       <form id="edit" method="post" action="/menus">
 
+
+	  
 	  <fieldset data-role="controlgroup">
 	      <legend>Type:</legend>
 	      <input name="mealtype" id="mealtype-breakfast" value="breakfast" checked="checked" type="radio">
@@ -69,13 +67,17 @@
 	    <input type="text" name="items">
 	  </div>
 
-	  <div class="ui-field-contain">
-	    <label for="servicedate">Date</label>
-	    <input data-role="date" name="servicedate" type="text">
-	  </div>
+
+	  
 	  <div class="ui-field-contain">
 	    <label for="comments">Comments</label>
 	    <input name="comments" type="text">
+	  </div>
+	  
+	  <div class="ui-field-contain">
+	    <label for="servicedate">Date</label>
+	    <br/>
+	    <input data-role="date" data-inline="true" name="servicedate" type="text">
 	  </div>
 
 	  <input type="submit" name="submit" id="submit" value="Add Menu" />

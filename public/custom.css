@@ -2,6 +2,15 @@
 {
    display: none;
 }
+#ui-datepicker-div.ui-datepicker
+{
+  z-index: 10;
+}
+
+.ui-datepicker
+{
+  z-index: 10;
+}
 
 #geolocation-msg
 {
@@ -9,6 +18,10 @@
   text-align: center;
   font-weight: bold;
 }
+
+.ui-datepicker-calendar a.ui-state-default { background: cyan; }
+
+    .ui-datepicker-calendar  { background: yellow; }
 
 #calendar .next-btn
 {
