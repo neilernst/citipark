@@ -6,38 +6,21 @@
         <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
         <link rel="stylesheet" href="themes/mytheme.min.css" />
         <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-
+        <link rel="stylesheet" href="jquery.mobile.datepicker.css" />
+        <link rel="stylesheet" href="jquery.mobile.datepicker.theme.css" />
       <script src="jquery-1.11.1.min.js"></script>
       <script src="jquery.mobile-1.4.5.min.js"></script>
-      <script type="text/javascript" src="jquery.ui.map.min.js"></script>
       <script type="text/javascript" src="script.js"></script>
       <script type="text/javascript" src="jw-jqm-cal.js"></script>
+      <script type="text/javascript" src="datepicker.js"></script>
 
-        <style type="text/css">
-label, input, select {
-  display:block;
-}
-input, select {
-  margin-bottom: 1em;
-}
-fieldset {
-  margin-bottom: 2em;
-  padding: 1em;
-}
-fieldset fieldset {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-input[type="checkbox"] {
-  display:inline;
-}
-.range {
-  margin-bottom:1em;
-}
-.meal-type input, .meal-type label {
-  display:inline-block;
-}
-  </style>
+      <script type="text/javascript" src="jquery.mobile.datepicker.js"></script>
+       <script>
+                $(function(){
+                        $( ".date-input-css" ).datepicker();
+                })
+        </script>
+
 </head>
 
 <body>
@@ -66,36 +49,42 @@ input[type="checkbox"] {
 <div data-role="menu-edit-form" class="ui-content">
 
 <form id="edit" method="post" action="">
-<fieldset>
-<fieldset>
-      <legend>Meal Type</legend>
-      <div class="meal-type">
-          <input id="Breakfast" name="mealtype" type="radio">
-          <label for="hot">Breakfast</label>
-          <input id="Lunch" name="mealtype" type="radio">
-          <label for="lunch">Lunch</label>
-          <input id="Snack" name="mealtype" type="radio">
-          <label for="snack">Snack</label>
-      </div>
-</fieldset>
 
-<fieldset>
-      <legend>Meal Class</legend>
-      <div class="meal-class">
-          <input id="Hot" name="mealclass" type="radio">
-          <label for="hot">Hot</label>
-          <input id="Cold" name="mealclass" type="radio">
-          <label for="cold">Cold</label>
-      </div>
-</fieldset>
+        <fieldset data-role="controlgroup">
+        <legend>Type:</legend>
+        <input name="mealtype" id="mealtype-breakfast" value="on" checked="checked" type="radio">
+        <label for="mealtype-breakfast">Breakfast</label>
+        <input name="mealtype" id="mealtype-lunch" value="off" type="radio">
+        <label for="mealtype-lunch">Lunch</label>
+        <input name="mealtype" id="mealtype-snack" value="off" type="radio">
+        <label for="mealtype-snack">Snack</label>
+    </fieldset>
 
-<label for="items">Meal Contents</label>
-<input type="text" name="itemns">
-Service Date: <input type="text" data-role="date" data-inline="true">
-<label for="comments">Comments</label>
-<input type="text" name="comments">
+        <fieldset data-role="controlgroup">
+        <legend>Class:</legend>
+        <input name="mealclass" id="mealclass-hot" value="on" checked="checked" type="radio">
+        <label for="mealclass-hot">Hot</label>
+        <input name="mealclass" id="mealclass-cold" value="off" type="radio">
+        <label for="mealclass-cold">Cold</label>
+    </fieldset>
 
-<input type="submit" name="submit" id="submit" value="Add Menu" />
+    
+    <div class="ui-field-contain">
+    <label for="items">Contents</label>
+    <input type="text" name="items">
+    </div>
+
+    <div class="ui-field-contain">
+    <label for="servicedate">Date</label>
+    <input data-role="date" name="servicedate" type="text">
+    </div>
+
+    <div class="ui-field-contain">
+    <label for="comments">Comments</label>
+    <input name="comments" type="text">
+    </div>
+
+    <input type="submit" name="submit" id="submit" value="Add Menu" />
 
 </fieldset>
 </form>
