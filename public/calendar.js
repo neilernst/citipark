@@ -17,10 +17,10 @@ $.getJSON( '/menus/all', function(data) {
     var endHour = 13;
     res = day.split("T"); 
     day = res[0];
-    console.log ("handle item " + i);
-    console.log ("year " + year);
-    console.log ("month " + month);
-    console.log ("day   " + day);
+//     console.log ("handle item " + i);
+//     console.log ("year " + year);
+//     console.log ("month " + month);
+//     console.log ("day   " + day);
     
     if (el.meal_type === "lunch")
     {
@@ -61,7 +61,7 @@ $.getJSON( '/menus/all', function(data) {
 
  $(document).on("pagebeforeshow", "#view-calendar", function () {
    var events = [];
-   console.log ("current type = " + localStorage.calendar_menu);
+//    console.log ("current type = " + localStorage.calendar_menu);
   if (localStorage.calendar_menu)
   {
     if (localStorage.calendar_menu == 1)
