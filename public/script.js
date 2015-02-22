@@ -252,7 +252,7 @@ function showPosition(position) {
 //      $('#map_canvas').gmap({ 'centerAt': new google.maps.LatLng(lat,lon)});
        $('#map_canvas').gmap('get', 'map').setCenter(new google.maps.LatLng(lat,lon));
        
-$('#map_canvas').gmap('option', 'zoom', 12);  
+$('#map_canvas').gmap('option', 'zoom', 15);  
 
 }
 
