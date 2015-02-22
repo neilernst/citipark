@@ -1,7 +1,8 @@
 var express = require('express');
-var app = express();
-var db = require("./public/javascripts/get_data");
+var bodyParser = require('body-parser');
 var pg = require('pg');
+var app = express();
+// var db = require("./public/javascripts/get_data");
 //var conString = "postgres://nernst@localhost/citiparks";
 var conString = process.env.DATABASE_URL;
 
@@ -35,12 +36,29 @@ app.get('/menus/all', function(req,res) { //clone baby clone
     });
 });
 
-// app.post('/menus', function(req,res,next) {
-//     console.log('ID:', req.params.id);
-//     pg.connect(conString, function(err, client, done) {
-//         client.query('INSERT INTO menus (
-//     });
-// });
+// create application/x-www-form-urlencoded parser
+var urlencodedParser = bodyParser.urlencoded({ extended: false })
+app.post('/menus', urlencodedParser, function(req,res,next) {
+    if (!req.body) return res.sendStatus(400)
+    console.log('req:', req.body);
+    pg.connect(conString, function(err, client, done) {
+        if(req.body.mealclass == 'on') {
+            var hot = true
+        } else {
+            var hot = false
+        }
+        client.query('INSERT INTO menus (meal_type,user_type,hot,service_date,items, comments) VALUES ($1, $2, $3, $4,$5,$6) RETURNING ID', [req.body.mealtype,1,hot,req.body.servicedate,req.body.items, req.body.comments],
+            function(err, result) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log('row inserted with id: ' + result.rows[0].id);
+                }
+            });
+        });
+    res.redirect('/menu.html');
+        res.status(200).end();
+    });
 
 app.delete('/menus/:id', function(req, res, next) {
 });
@@ -115,10 +133,3 @@ app.get('/locations/json', function(req,res) {
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'));
 });
-
-function fetchMenus(req, res) {
-    console.log(conString);
-    var data =
-    json_fmt  = JSON.stringify(data);
-    res.send(json_fmt);
-}

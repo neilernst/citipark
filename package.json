@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "express": "~4.9.x",
+    "body-parser": "latest",
     "pg": ">= 4.x"
   },
   "engines": {
