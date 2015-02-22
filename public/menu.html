@@ -26,70 +26,107 @@
  <body>
  <div data-role="page" id="main">
    <div data-role="header">
-     <h1>Citiparks - Menu Edit</h1>
+     <h1>Citiparks - Menu Add</h1>
      <div data-role="navbar">
        <ul>
-         <li><a href="#main" data-icon="home">Home</a></li>
-         <li><a href="#pagemap" data-icon="location">Map</a></li>
-         <li><a href="#pagelist" data-icon="bars">list</a></li>
-         <li><a href="#pagesearch" data-icon="search">search</a></li>
-         <li><a href="#pagefav" data-icon="heart">favorite</a></li>
+         <li><a href="#main" data-icon="plus">Add Menu</a></li>
+         <li><a href="#main" data-icon="bars">List Menus</a></li>
+         <li><a href="#remove" data-icon="minus">Remove Menu</a></li>
        </ul>
      </div>
    </div>
    <div data-role="main" class="ui-content">
-
      <p style="text-align: center; font-size: 1.5em; font-weight: bold;">
-     Welcome on the Citiparks menu editor. Note: this is only for Citiparks employees.
+     Welcome on the Citiparks menu editor. <br/> Note: this is only for Citiparks employees.
      </p>
-
-
- </div>
-
- <div data-role="menu-edit-form" class="ui-content">
-
- <form id="edit" method="post" action="/menus">
-
-    <fieldset data-role="controlgroup">
-        <legend>Type:</legend>
-        <input name="mealtype" id="mealtype-breakfast" value="breakfast" checked="checked" type="radio">
-        <label for="mealtype-breakfast">Breakfast</label>
-        <input name="mealtype" id="mealtype-lunch" value="lunch" type="radio">
-        <label for="mealtype-lunch">Lunch</label>
-        <input name="mealtype" id="mealtype-snack" value="snack" type="radio">
-        <label for="mealtype-snack">Snack</label>
-    </fieldset>
-
-    <fieldset data-role="controlgroup">
-        <legend>Class:</legend>
-        <input name="mealclass" id="mealclass-hot" value="on" checked="checked" type="radio">
-        <label for="mealclass-hot">Hot</label>
-        <input name="mealclass" id="mealclass-cold" value="off" type="radio">
-        <label for="mealclass-cold">Cold</label>
-    </fieldset>
-
-
-    <div class="ui-field-contain">
-      <label for="items">Contents</label>
-      <input type="text" name="items">
     </div>
 
-    <div class="ui-field-contain">
-      <label for="servicedate">Date</label>
-      <input data-role="date" name="servicedate" type="text">
+    <div data-role="menu-edit-form" class="ui-content">
+
+      <form id="edit" method="post" action="/menus">
+
+	  <fieldset data-role="controlgroup">
+	      <legend>Type:</legend>
+	      <input name="mealtype" id="mealtype-breakfast" value="breakfast" checked="checked" type="radio">
+	      <label for="mealtype-breakfast">Breakfast</label>
+	      <input name="mealtype" id="mealtype-lunch" value="lunch" type="radio">
+	      <label for="mealtype-lunch">Lunch</label>
+	      <input name="mealtype" id="mealtype-snack" value="snack" type="radio">
+	      <label for="mealtype-snack">Snack</label>
+	  </fieldset>
+
+	  <fieldset data-role="controlgroup">
+	      <legend>Class:</legend>
+	      <input name="mealclass" id="mealclass-hot" value="on" checked="checked" type="radio">
+	      <label for="mealclass-hot">Hot</label>
+	      <input name="mealclass" id="mealclass-cold" value="off" type="radio">
+	      <label for="mealclass-cold">Cold</label>
+	  </fieldset>
+
+
+	  <div class="ui-field-contain">
+	    <label for="items">Contents</label>
+	    <input type="text" name="items">
+	  </div>
+
+	  <div class="ui-field-contain">
+	    <label for="servicedate">Date</label>
+	    <input data-role="date" name="servicedate" type="text">
+	  </div>
+	  <div class="ui-field-contain">
+	    <label for="comments">Comments</label>
+	    <input name="comments" type="text">
+	  </div>
+
+	  <input type="submit" name="submit" id="submit" value="Add Menu" />
+
+      </fieldset>
+      </form>
+
+    </div><!-- /end #contact-form -->
+</div>
+
+
+
+<div data-role="page" id="success">
+   <div data-role="header">
+     <h1>Citiparks - Menu Add</h1>
+     <div data-role="navbar">
+       <ul>
+         <li><a href="#main" data-icon="plus">Add Menu</a></li>
+         <li><a href="#main" data-icon="bars">List Menus</a></li>
+         <li><a href="#remove" data-icon="minus">Remove Menu</a></li>
+       </ul>
+     </div>
+   </div>
+   <div data-role="main" class="ui-content">
+     <p style="text-align: center; font-size: 1.5em; font-weight: bold;">
+     Successful Operation
+     </p>
     </div>
-    <div class="ui-field-contain">
-      <label for="comments">Comments</label>
-      <input name="comments" type="text">
+</div>
+
+<div data-role="page" id="failure">
+   <div data-role="header">
+     <h1>Citiparks - Menu Add</h1>
+     <div data-role="navbar">
+       <ul>
+         <li><a href="#main" data-icon="plus">Add Menu</a></li>
+         <li><a href="#main" data-icon="bars">List Menus</a></li>
+         <li><a href="#remove" data-icon="minus">Remove Menu</a></li>
+       </ul>
+     </div>
+   </div>
+   <div data-role="main" class="ui-content">
+     <p style="text-align: center; font-size: 1.5em; font-weight: bold;">
+     Error When Processing
+     </p>
     </div>
+</div>
 
-    <input type="submit" name="submit" id="submit" value="Add Menu" />
 
- </fieldset>
- </form>
-
- </div><!-- /end #contact-form -->
-
+    
+    
 
  </body>
  </html>
