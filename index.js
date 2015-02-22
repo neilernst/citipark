@@ -41,7 +41,24 @@ app.get('/menus/json/:id', function (req, res, next) {
 
 // Location Routes
 app.get('/locations/json/:id', function (req, res, next) {
-    res.send('Location');
+    console.log('ID:', req.params.id);
+    console.log(conString);
+    pg.connect(conString, function(err, client, done) {
+        client.query('SELECT site_name FROM locations WHERE id = $1', [req.params.id], function(err, result) {
+        // handle an error from the query
+        if (result.rows[0] != null) {
+            console.log(result.rows[0].site_name);
+        } else {
+            done(client);
+            res.statusCode = 404;
+            res.send('An error occurred');
+            return true;
+        }
+        res.statusCode = 200;//res.writeHead(200,{'content-type': 'text/plain'});
+        res.send('Location');
+        done();
+        });
+    });
 });
 
 app.get('/locations/json', function(req,res) {
