@@ -35,12 +35,19 @@ app.get('/menus/all', function(req,res) { //clone baby clone
     });
 });
 
-// app.post('/menus', function(req,res,next) {
-//     console.log('ID:', req.params.id);
-//     pg.connect(conString, function(err, client, done) {
-//         client.query('INSERT INTO menus (
-//     });
-// });
+app.post('/menus', function(req,res,next) {
+    console.log('ID:', req.params.id);
+    pg.connect(conString, function(err, client, done) {
+        client.query('INSERT INTO menus (meal_type,user_type,hot,service_date,items, comments) VALUES ($1, $2, $3, $4,$5,$6) RETURNING ID', [request.body.mealtype,1,request.body.date,request.body.items, request.body.comments],
+            function(err, result) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log('row inserted with id: ' + result.rows[0].id);
+                }
+            });
+        });
+    });
 
 app.delete('/menus/:id', function(req, res, next) {
 });
