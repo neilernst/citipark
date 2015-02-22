@@ -2,39 +2,54 @@ var menuHot 	= [];
 var menuCold 	= [];
 var menuSenior 	= [];
 
-$.getJSON( '/menus/json', function(data) { 
+
+$.getJSON( '/menus/all', function(data) { 
   $.each(data, function (i, el) {
-    var dateString = el.date;
+    var dateString = el.service_date;
     var menuItems = el.items;
-    var menuType = el.type;
+    var isHot = el.hot;
+    var menuType = el.user_type;
     var res = dateString.split("-"); 
-    var month = res[0];
-    var day = res[1];
-    var year = res[2];
-    var menuString = "";
+    var year = res[0];
+    var month = res[1];
+    var day = res[2];
+    var startHour = 09;
+    var endHour = 13;
+    res = day.split("T"); 
+    day = res[0];
+//     console.log ("handle item " + i);
+//     console.log ("year " + year);
+//     console.log ("month " + month);
+//     console.log ("day   " + day);
     
-    for (i = 0 ; i < menuItems.length ; i++)
+    if (el.meal_type === "lunch")
     {
-      if (i > 0)
+      startHour = 11;
+      endHour = 14;
+    }
+    
+    if (el.meal_type === "breakfast")
+    {
+      startHour = 08;
+      endHour = 10;
+    }
+    
+    
+    
+    var event = { "summary" : menuItems, "begin" : new Date(year, month - 1 , day, startHour, 00, 00, 00), "end" : new Date(year, month - 1, day, endHour, 00, 00, 00) };
+    
+    if (menuType === 1)
+    {
+      if (isHot)
       {
-	 menuString += ", ";
-      }
-      menuString +=  menuItems[i];
-    }
-    
-    var event = { "summary" : menuString, "begin" : new Date(year, month - 1 , day, 09, 00, 00, 00), "end" : new Date(year, month - 1, day, 10, 00, 00, 00) };
-    
-    if (menuType == 1)
-    {
-	menuCold.push(event);
-    }
-    
-    if (menuType == 2)
-    {
 	menuHot.push(event);
+      }
+      else
+      {
+	menuCold.push(event);
+      }
     }
-    
-    if (menuType == 3)
+    else
     {
 	menuSenior.push(event);
     }
@@ -46,7 +61,7 @@ $.getJSON( '/menus/json', function(data) {
 
  $(document).on("pagebeforeshow", "#view-calendar", function () {
    var events = [];
-   console.log ("current type = " + localStorage.calendar_menu);
+//    console.log ("current type = " + localStorage.calendar_menu);
   if (localStorage.calendar_menu)
   {
     if (localStorage.calendar_menu == 1)

@@ -44,6 +44,9 @@ var neighborhoods = [
 SENIORCOLOR = "#b7b0ff";
 JUNIORCOLOR = "#feff9c";
 JSON_LOCATIONS = "/locations/json/";
+// JSON_LOCATIONS = "locations.json";
+
+
 
 function isFavorite (o)
 {
@@ -55,7 +58,7 @@ function isFavorite (o)
     }
     catch(err) {
       vals = new Array();
-      console.log("json parse error " + err.message);
+//       console.log("json parse error " + err.message);
       return false;
     }
   }
@@ -64,7 +67,7 @@ function isFavorite (o)
   for (i = 0 ; i < vals.length ; i++)
   {
     obj = vals[i];
-    console.log("obj" + obj.title);
+//     console.log("obj" + obj.title);
     if (obj.id === o.id)
     {
       return true;
@@ -81,13 +84,13 @@ function printFavorites ()
   {
     return;
   }
-  
+  /*
   var vals = JSON.parse(localStorage.favorites);
- 
-  for (i = 0 ; i < vals.length ; i++)
-  {
-    console.log("Favorite " + i + " " + vals[i].title);
-  }
+ */
+//   for (i = 0 ; i < vals.length ; i++)
+//   {
+//     console.log("Favorite " + i + " " + vals[i].title);
+//   }
 }
 
 function updateFavorite (o)
@@ -123,21 +126,21 @@ function removeFavorite (o)
   for (i = 0 ; i < vals.length ; i++)
   {
     obj = vals[i];
-    console.log("obj" + obj.title);
+//     console.log("obj" + obj.title);
     if (obj.id === o.id)
     {
       foundid = i;
     }
   }
   
-  console.log("foundid = " + foundid);
+//   console.log("foundid = " + foundid);
 
   
   if (foundid != -1)
   {
     if (foundid === vals.length - 1)
     {
-      console.log("just pop");
+//       console.log("just pop");
 
       vals.pop();
     }
@@ -145,8 +148,7 @@ function removeFavorite (o)
     {
       for (i = foundid ; i < vals.length - 1 ; i++)
       {
-	
-      console.log("replacing " + i + " with " + (i + 1));
+//       console.log("replacing " + i + " with " + (i + 1));
 	vals[i] = vals[i+1];
       }
     }
@@ -158,7 +160,7 @@ function removeFavorite (o)
 
 function addFavorite (o)
 {
-  console.log ("add to favorite id " + o.id + " title " + o.title);
+//   console.log ("add to favorite id " + o.id + " title " + o.title);
   var vals = new Array();
   if (localStorage.favorites)
   {
@@ -167,7 +169,7 @@ function addFavorite (o)
     }
     catch(err) {
       vals = new Array();
-      console.log("json parse error " + err.message);  
+//       console.log("json parse error " + err.message);  
     }
   }
   
@@ -175,7 +177,7 @@ function addFavorite (o)
   for (i = 0 ; i < vals.length ; i++)
   {
     obj = vals[i];
-    console.log("obj" + obj.title);
+//     console.log("obj" + obj.title);
     if (obj.id === o.id)
     {
       return;
@@ -244,9 +246,9 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    console.log ("lat = " + position.coords.latitude);
+//     console.log ("lat = " + position.coords.latitude);
     
-    console.log ("lon = " + position.coords.longitude);
+//     console.log ("lon = " + position.coords.longitude);
     var lat = position.coords.latitude;
     var lon = position.coords.longitude;
 //      $('#map_canvas').gmap({ 'centerAt': new google.maps.LatLng(lat,lon)});
@@ -258,7 +260,7 @@ $('#map_canvas').gmap('option', 'zoom', 15);
 
 
 function showError(error) {
-  console.log ("error  " + error);
+//   console.log ("error  " + error);
     switch(error.code) {
         case error.PERMISSION_DENIED:
              document.getElementById("geolocation-msg").innerHTML = "User denied the request for Geolocation."
@@ -278,7 +280,7 @@ function showError(error) {
 
 $(document).on('vclick', '#getlocation', function (e) {
 
-  console.log ("get location");
+//   console.log ("get location");
    getLocation();
 //                   $('#map_canvas').gmap({'center': getLatLng()});
 //                 function getLatLng() {
@@ -297,7 +299,7 @@ $(document).on('vclick', '#button-senior', function (e) {
 
   e.stopImmediatePropagation();
   e.preventDefault();
-  console.log("button senior");
+//   console.log("button senior");
   
         var searchdata = 
       {
@@ -307,7 +309,7 @@ $(document).on('vclick', '#button-senior', function (e) {
       
       $("#pagesearch-result").data("searchdata", searchdata);
       
-      console.log (this.id);
+//       console.log (this.id);
       //change the page # to second page. 
       //Now the URL in the address bar will read index.html#details-page
       //where #details-page is the "id" of the second page
@@ -319,7 +321,7 @@ $(document).on('vclick', '#button-senior', function (e) {
 
 
 $(document).on('vclick', '#button-junior', function (e) {
-  console.log("button junior");
+//   console.log("button junior");
           var searchdata = 
       {
 	"programtype" 		: 1
@@ -328,7 +330,7 @@ $(document).on('vclick', '#button-junior', function (e) {
       
       $("#pagesearch-result").data("searchdata", searchdata);
       
-      console.log (this.id);
+//       console.log (this.id);
       //change the page # to second page. 
       //Now the URL in the address bar will read index.html#details-page
       //where #details-page is the "id" of the second page
@@ -454,7 +456,7 @@ $(document).on("pageinit", "#pagesearch", function () {
       
       $("#pagesearch-result").data("searchdata", searchdata);
       
-      console.log (this.id);
+//       console.log (this.id);
       //change the page # to second page. 
       //Now the URL in the address bar will read index.html#details-page
       //where #details-page is the "id" of the second page
@@ -570,7 +572,7 @@ function refreshFavorites ()
     }
     catch(err) {
       vals = new Array();
-      console.log("json parse error " + err.message);
+//       console.log("json parse error " + err.message);
       return false;
     }
   }
@@ -579,7 +581,7 @@ function refreshFavorites ()
   
   if (vals.length == 0)
   {
-    console.log ("length = 0");
+//     console.log ("length = 0");
     document.getElementById("favorite-warning").style.display = "block";
   }
   else
@@ -588,7 +590,7 @@ function refreshFavorites ()
 
     for ( i = 0 ; i < vals.length ; i++)
     {
-      console.log ("Add id " + i + " to the list");
+//       console.log ("Add id " + i + " to the list");
       var classli;
       if (vals[i].type === 2)
       {
@@ -1054,7 +1056,7 @@ function initializeMap()
 
 
 function openLocationDetails(index) {
-  console.log ("index=" + index);
+//   console.log ("index=" + index);
    $("#details-page").data("info", info[index]);
    $.mobile.changePage("#details-page");
 }
