@@ -1,17 +1,17 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--       <link rel="stylesheet" href="custom.css"> -->
-        <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
-        <link rel="stylesheet" href="themes/mytheme.min.css" />
-        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+ <!DOCTYPE html>
+ <html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!--       <link rel="stylesheet" href="custom.css"> -->
+         <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+         <link rel="stylesheet" href="themes/mytheme.min.css" />
+         <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
         <link rel="stylesheet" href="jquery.mobile.datepicker.css" />
         <link rel="stylesheet" href="jquery.mobile.datepicker.theme.css" />
-      <script src="jquery-1.11.1.min.js"></script>
-      <script src="jquery.mobile-1.4.5.min.js"></script>
-      <script type="text/javascript" src="script.js"></script>
-      <script type="text/javascript" src="jw-jqm-cal.js"></script>
+       <script src="jquery-1.11.1.min.js"></script>
+       <script src="jquery.mobile-1.4.5.min.js"></script>
+       <script type="text/javascript" src="script.js"></script>
+       <script type="text/javascript" src="jw-jqm-cal.js"></script>
       <script type="text/javascript" src="datepicker.js"></script>
 
       <script type="text/javascript" src="jquery.mobile.datepicker.js"></script>
@@ -21,36 +21,36 @@
                 })
         </script>
 
-</head>
+ </head>
 
-<body>
-<div data-role="page" id="main">
-  <div data-role="header">
-    <h1>Citiparks - Menu Edit</h1>
-    <div data-role="navbar">
-      <ul>
-        <li><a href="#main" data-icon="home">Home</a></li>
-        <li><a href="#pagemap" data-icon="location">Map</a></li>
-        <li><a href="#pagelist" data-icon="bars">list</a></li>
-        <li><a href="#pagesearch" data-icon="search">search</a></li>
-        <li><a href="#pagefav" data-icon="heart">favorite</a></li>
-      </ul>
-    </div>
-  </div>
-  <div data-role="main" class="ui-content">
+ <body>
+ <div data-role="page" id="main">
+   <div data-role="header">
+     <h1>Citiparks - Menu Edit</h1>
+     <div data-role="navbar">
+       <ul>
+         <li><a href="#main" data-icon="home">Home</a></li>
+         <li><a href="#pagemap" data-icon="location">Map</a></li>
+         <li><a href="#pagelist" data-icon="bars">list</a></li>
+         <li><a href="#pagesearch" data-icon="search">search</a></li>
+         <li><a href="#pagefav" data-icon="heart">favorite</a></li>
+       </ul>
+     </div>
+   </div>
+   <div data-role="main" class="ui-content">
 
-    <p style="text-align: center; font-size: 1.5em; font-weight: bold;">
-    Welcome on the Citiparks menu editor. Note: this is only for Citiparks employees..
-    </p>
+     <p style="text-align: center; font-size: 1.5em; font-weight: bold;">
+     Welcome on the Citiparks menu editor. Note: this is only for Citiparks employees..
+     </p>
 
 
-</div>
+ </div>
 
-<div data-role="menu-edit-form" class="ui-content">
+ <div data-role="menu-edit-form" class="ui-content">
 
-<form id="edit" method="post" action="">
+ <form id="edit" method="post" action="">
 
-        <fieldset data-role="controlgroup">
+    <fieldset data-role="controlgroup">
         <legend>Type:</legend>
         <input name="mealtype" id="mealtype-breakfast" value="on" checked="checked" type="radio">
         <label for="mealtype-breakfast">Breakfast</label>
@@ -60,7 +60,7 @@
         <label for="mealtype-snack">Snack</label>
     </fieldset>
 
-        <fieldset data-role="controlgroup">
+    <fieldset data-role="controlgroup">
         <legend>Class:</legend>
         <input name="mealclass" id="mealclass-hot" value="on" checked="checked" type="radio">
         <label for="mealclass-hot">Hot</label>
@@ -70,31 +70,27 @@
 
 
     <div class="ui-field-contain">
-    <label for="items">Contents</label>
-    <input type="text" name="items">
+      <label for="items">Contents</label>
+      <input type="text" name="items">
     </div>
 
     <div class="ui-field-contain">
-    <label for="servicedate">Date</label>
-    <input data-role="date" name="servicedate" type="text">
+      <label for="servicedate">Date</label>
+      <input data-role="date" name="servicedate" type="text">
     </div>
-
-<label for="items">Meal Contents</label>
-<input type="text" name="items">
-Service Date: <input type="text" data-role="date" data-inline="true">
     <div class="ui-field-contain">
-    <label for="comments">Comments</label>
-    <input name="comments" type="text">
+      <label for="comments">Comments</label>
+      <input name="comments" type="text">
     </div>
 
     <input type="submit" name="submit" id="submit" value="Add Menu" />
 
-</fieldset>
-</form>
+ </fieldset>
+ </form>
 
-</div><!-- /end #contact-form -->
+ </div><!-- /end #contact-form -->
 
 
-</body>
-</html>
+ </body>
+ </html>
 
