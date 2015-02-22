@@ -52,12 +52,12 @@ app.post('/menus', urlencodedParser, function(req,res,next) {
                 if (err) {
                     console.log(err);
                     done(client);
-                    res.redirect('/menu.html#failure');
+                    res.redirect('/menu-failure.html');
                     res.status(500).end()
                     return true;
                 } else {
                     console.log('row inserted with id: ' + result.rows[0].id);
-                    res.redirect('/menu.html#success');
+                    res.redirect('/menu-success.html');
                     res.status(200).end();
                 }
             });
