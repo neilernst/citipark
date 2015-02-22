@@ -51,13 +51,18 @@ app.post('/menus', urlencodedParser, function(req,res,next) {
             function(err, result) {
                 if (err) {
                     console.log(err);
+                    done(client);
+                    res.redirect('/menu-failure.html');
+                    res.status(500).end()
+                    return true;
                 } else {
                     console.log('row inserted with id: ' + result.rows[0].id);
+                    res.redirect('/menu-success.html');
+                    res.status(200).end();
                 }
             });
         });
-    res.redirect('/menu.html');
-        res.status(200).end();
+
     });
 
 app.delete('/menus/:id', function(req, res, next) {
