@@ -44,6 +44,9 @@ var neighborhoods = [
 SENIORCOLOR = "#b7b0ff";
 JUNIORCOLOR = "#feff9c";
 JSON_LOCATIONS = "/locations/json/";
+// JSON_LOCATIONS = "locations.json";
+
+
 
 function isFavorite (o)
 {
